@@ -31,3 +31,52 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+    font-family: TypoSquareDemo;
+    src: local('TypoSquareDemo'),
+    local('TypoSquareDemo-Regular'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Regular-Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TypoSquareDemo;
+    font-style: italic;
+    src: local('TypoSquareDemo Italic'),
+    local('TypoSquareDemo-Italic'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Italic-Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TypoSquareDemo;
+    font-weight: lighter;
+    src: local('TypoSquareDemo Lighter'),
+    local('TypoSquareDemo-Lighter'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Light-Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TypoSquareDemo;
+    font-weight: lighter;
+    font-style: italic;
+    src: local('TypoSquareDemo Lighter Italic'),
+    local('TypoSquareDemo-Lighter-Talic'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Light-Italic-Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TypoSquareDemo;
+    font-weight: bold;
+    src: local('TypoSquareDemo Bold'),
+    local('TypoSquareDemo-Bold'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Bold-Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TypoSquareDemo;
+    font-weight: bold;
+    font-style: italic;
+    src: local('TypoSquareDemo Bold Italic'),
+    local('TypoSquareDemo-Bold-Talic'),
+    url("/assets/fonts/Typo-Square/Typo-Square-Bold-Italic_Demo.otf") format("opentype");
+}
