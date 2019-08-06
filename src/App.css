@@ -49,6 +49,20 @@
     width: 64px;
 }
 
+.App-introduction {
+    width: 100%;
+    height: 500px;
+    background-image: url('/images/desk.jpg'); /* Source https://pxhere.com/en/photo/1452227 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.App-introduction img {
+    height: inherit;
+    width: inherit;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

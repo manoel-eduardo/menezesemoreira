@@ -1,12 +1,10 @@
 import React from 'react';
-import {Paper} from "@material-ui/core";
+import "../../App.css";
 
 class Introduction extends React.Component {
     render() {
         return (
-            <Paper>
-                <h1>Introduction</h1>
-            </Paper>
+            <div className={"App-introduction"}/>
         );
     }
 }

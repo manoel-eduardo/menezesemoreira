@@ -11,8 +11,8 @@ const App: React.FC = () => {
   return (
       <React.Fragment>
           <Header/>
+          <Introduction/>
           <Container>
-              <Introduction/>
               <Details/>
               <Contact/>
               <Footer/>
