@@ -13,7 +13,7 @@ const theme = createMuiTheme({
             main: red.A400,
         },
         background: {
-            default: '#a2a4a7',
+            default: 'whitesmoke',
         },
     },
     typography: {
