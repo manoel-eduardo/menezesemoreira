@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px"
+     y="0px"
+     viewBox="0 0 132.63 85.89" style="enable-background:new 0 0 132.63 85.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#A7A9AC;}
+	.st1{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#58595B;}
+	.st3{clip-path:url(#SVGID_2_);fill:#F58220;}
+</style>
+    <g>
+	<defs>
+		<rect id="SVGID_1_" x="-75.72" y="-22.67" width="286" height="172"/>
+	</defs>
+        <clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+	</clipPath>
+        <rect x="9.51" y="30.65" class="st0" width="52.81" height="0.61"/>
+        <polygon class="st0" points="98.45,41.46 84.59,41.46 79.65,41.46 79.65,40.85 84.59,40.85 98.45,40.85 	"/>
+        <rect x="94.53" y="10.88" class="st0" width="0.61" height="33.26"/>
+        <rect x="119.48" y="10.88" class="st0" width="0.61" height="6.82"/>
+        <polygon class="st1" points="11.9,53.59 11.9,76.18 120.69,76.18 120.69,16.73 95.32,46.66 69.56,26.05 38.45,52.2 23.79,42.89
+		"/>
+        <rect x="74.82" y="30.65" class="st0" width="33.33" height="0.61"/>
+        <polygon class="st2" points="90.42,43.64 94.85,46.13 98.68,41.85 98.68,73.67 90.42,73.67 	"/>
+        <polygon class="st2" points="33.93,47.76 38.16,52.78 42.18,51 42.18,73.67 33.93,73.67 	"/>
+        <polygon class="st2" points="16.85,47.76 25.1,41.85 25.1,73.67 16.85,73.67 	"/>
+        <polygon class="st2" points="51.01,42.69 59.26,34.29 59.26,73.67 51.01,73.67 	"/>
+        <polygon class="st2" points="73.24,31.48 81.49,38.01 81.49,73.67 73.24,73.67 	"/>
+        <polygon class="st2" points="107.6,33.88 115.86,24.12 115.86,73.67 107.6,73.67 	"/>
+        <path class="st0" d="M122.5,76.01V11.27H10.2v64.74H122.5z M123.73,10.69V76.6v0.3v0.28h-0.3h-0.32H9.59H9.27h-0.3V76.9v-0.3V10.69
+		v-0.31V10.1h0.3h0.32h113.52h0.32h0.3v0.28V10.69z"/>
+        <rect x="9.08" y="20.45" class="st0" width="108.58" height="0.61"/>
+        <rect x="19.73" y="10.88" class="st0" width="0.61" height="34.92"/>
+        <polygon class="st0" points="50.22,41.46 20.42,41.46 9.8,41.46 9.8,40.85 20.42,40.85 50.22,40.85 	"/>
+        <rect x="32.2" y="10.88" class="st0" width="0.61" height="39.23"/>
+        <rect x="44.66" y="10.88" class="st0" width="0.61" height="34.92"/>
+        <rect x="57.13" y="10.88" class="st0" width="0.61" height="24.2"/>
+        <rect x="69.6" y="10.88" class="st0" width="0.61" height="16.77"/>
+        <rect x="107" y="10.88" class="st0" width="0.61" height="20.63"/>
+        <rect x="82.07" y="10.88" class="st0" width="0.61" height="28.75"/>
+        <polygon class="st3" points="5.61,54.08 22.47,41.3 23.95,40.17 25.33,41.43 38.13,50.34 67.97,24.75 69.4,23.38 70.94,24.64
+		94.08,43.66 124.29,10.93 127.68,13.87 96.04,48.25 94.61,49.9 92.92,48.51 69.63,29.37 39.71,55.03 38.21,56.47 36.66,55.06 
+		23.69,45.99 8.32,57.65 	"/>
+</g>
+</svg>
