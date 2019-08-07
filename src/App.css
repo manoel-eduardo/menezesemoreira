@@ -28,7 +28,7 @@
     min-height: 15px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: left;
     font-family: TypoSquareDemoBold;
     font-size: calc(10px + 2vmin);
@@ -56,6 +56,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    margin-bottom: 10px;
 }
 
 .App-introduction img {

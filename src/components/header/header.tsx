@@ -10,7 +10,8 @@ class Header extends React.Component {
             <AppBar position="relative" className="App-nav">
                 <Toolbar>
                     <div className={"App-logoContainer"}>
-                        <img src={process.env.PUBLIC_URL + '/images/card.svg'}/>
+                        <img src={process.env.PUBLIC_URL + '/images/card.svg'}
+                             alt={'Contabilidade Menezes e Moreira - Logo'}/>
                     </div>
                     <Typography variant="h6" color="inherit">
                         Contabilidade Menezes e Moreira

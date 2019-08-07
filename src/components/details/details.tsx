@@ -1,24 +1,72 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import {Paper} from "@material-ui/core";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import {Card, Container} from "@material-ui/core";
+import './Details.css';
 
 class Details extends React.Component {
     render() {
+        var settings = {
+            dots: true,
+            infinite: true,
+            arrows: true,
+            speed: 1600,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            pauseOnHover: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        };
+
         return (
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
-                    <Paper><h1>Details</h1></Paper>
-                </Grid>
-                <Grid item xs={4}>
-                    <Paper>Service 1</Paper>
-                </Grid>
-                <Grid item xs={4}>
-                    <Paper>Service 2</Paper>
-                </Grid>
-                <Grid item xs={4}>
-                    <Paper>Service 3</Paper>
-                </Grid>
-            </Grid>
+            <Container>
+                <Slider {...settings}>
+                    <div className={'Details-CardContainer'}>
+                        <Card>
+                            Contabilidade
+                        </Card>
+                    </div>
+                    <div className={'Details-CardContainer'}>
+                        <Card>
+                            Escrita Fiscal
+                        </Card>
+                    </div>
+                    <div className={'Details-CardContainer'}>
+                        <Card>
+                            Folha
+                        </Card>
+                    </div>
+                    <div className={'Details-CardContainer'}>
+                        <Card>
+                            Regularização Empresa
+                        </Card>
+                    </div>
+                    <div className={'Details-CardContainer'}>
+                        <Card>
+                            Pessoa Física
+                        </Card>
+                    </div>
+                </Slider>
+            </Container>
         );
     }
 }
