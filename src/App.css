@@ -5,7 +5,7 @@
 }
 
 .App-nav {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 1) !important;
     min-height: 15px;
     display: flex;
     flex-direction: column;

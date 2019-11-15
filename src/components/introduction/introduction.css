@@ -35,6 +35,7 @@
 
 .intro-logo-smDown {
     z-index: 3;
+    margin-top: 10vh;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -59,7 +60,6 @@
 }
 
 .intro-logo img {
-    margin-top: -10vh;
     height: 50vh;
     width: 50vh;
 }

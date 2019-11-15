@@ -10,7 +10,7 @@ import {Container} from "@material-ui/core";
 const App: React.FC = () => {
   return (
       <React.Fragment>
-          {/* <Header/> */}
+          <Header/>
           <Introduction/>
           <Container>
               <Details/>
