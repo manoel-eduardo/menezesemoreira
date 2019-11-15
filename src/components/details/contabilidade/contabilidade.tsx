@@ -1,13 +1,13 @@
 import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {Box, Typography} from "@material-ui/core";
+import {Box} from "@material-ui/core";
 
 class Contabilidade extends React.Component {
     render() {
         return (
             <Box>
-                <Typography variant="h6">Contabilidade</Typography>
+                <h3>Contabilidade</h3>
                 <ul>
                     <li>Elaboração do plano de contas conforme a necessidade de cada cliente;</li>
                     <li>Classificação e análise da documentação contábil;</li>

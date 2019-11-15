@@ -34,7 +34,8 @@ const theme = createMuiTheme({
         },
         h6: {
             fontFamily: 'TypoSquareDemo', 
-        }
+        },
+        fontFamily: 'Roboto'
     },
 });
 
