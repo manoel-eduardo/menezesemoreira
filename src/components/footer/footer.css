@@ -1,0 +1,21 @@
+.footer-container { 
+    background-color: #f5821f;
+    padding-top: 15px;
+}
+
+.footer-container a{ 
+    color: white;
+}
+
+.itemTitle {
+    text-align: center;
+}
+
+.footerItem {
+    padding: 10px;
+}
+
+.itemContent {
+    padding: 5px;
+    text-align: center;
+}

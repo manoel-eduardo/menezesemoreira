@@ -3,7 +3,6 @@ import './App.css';
 import Header from "./components/header/header";
 import Introduction from "./components/introduction/introduction";
 import Details from "./components/details/details";
-import Contact from "./components/contatc/contact";
 import Footer from "./components/footer/footer";
 import {Container} from "@material-ui/core";
 
@@ -14,9 +13,8 @@ const App: React.FC = () => {
           <Introduction/>
           <Container>
               <Details/>
-              <Contact/>
-              <Footer/>
           </Container>
+          <Footer/>
       </React.Fragment>
   );
 };
