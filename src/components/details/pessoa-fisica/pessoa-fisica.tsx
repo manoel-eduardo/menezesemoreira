@@ -7,7 +7,7 @@ class PessoaFisica extends React.Component {
     render() {
         return (
             <Box>
-                <Typography variant="h6">Pessoa Física</Typography>
+                <Typography variant="h6" className="serviceName">Pessoa Física</Typography>
                 <ul>
                     <li>
                         <span>Análise elabora e acompanhamento da declaração de imposto de renda</span>

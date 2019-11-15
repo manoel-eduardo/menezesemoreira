@@ -7,7 +7,7 @@ class Folha extends React.Component {
     render() {
         return (
             <Box>
-                <Typography variant="h6">Folha</Typography>
+                <Typography variant="h6" className="serviceName">Folha</Typography>
                 <ul>
                     <li>
                         <span>Orientação e controle da aplicação da CLT e a Previdência Social</span>

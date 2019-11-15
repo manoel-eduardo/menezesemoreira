@@ -7,7 +7,7 @@ class RegularizacaoEmpresarial extends React.Component {
     render() {
         return (
             <Box>
-                <Typography variant="h6">Regularização Empresa</Typography>
+                <Typography variant="h6" className="serviceName">Regularização Empresa</Typography>
                 <ul>
                     <li>
                         <span>Elaboração do contrato social, alterações contratuais, atas de assembleias gerais</span>

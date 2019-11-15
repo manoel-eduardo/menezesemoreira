@@ -7,7 +7,7 @@ class EscritaFiscal extends React.Component {
     render() {
         return (
             <Box>
-                <Typography variant="h6">Escrita Fiscal</Typography>
+                <Typography variant="h6" className="serviceName">Escrita Fiscal</Typography>
                 <ul>
                     <li>
                         <span>Escrituração de notas fiscais de entrada, saída e serviços (tomados e prestados)</span>

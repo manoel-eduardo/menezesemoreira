@@ -5,7 +5,7 @@
     --color: #1a1e24;
 }
 
-.servicesTitle{
+.servicesTitle {
     text-align: center;
     padding: 15px 0px 15px 0px;
 }
@@ -57,7 +57,7 @@
 
 .servicesPaper.right ul li:before{
     float: right;
-    margin: 0.275rem 0rem 0.5rem 0;
+    margin: 0.275rem 0.5rem 0rem 0;
 }
 
 .servicesPaper ul li span {
@@ -65,6 +65,20 @@
     margin-top: -5px;
 }
 
-.servicesPaper.right  ul li span {
+.servicesPaper.right ul li {
+    margin-right: 30px;
+}
+
+.servicesPaper.right ul li span {
     margin-right: 10px;
+}
+
+.servicesPaper .serviceName{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.servicesPaper.right .serviceName {
+    margin-top: 15px;
+    margin-right: 40px;
 }
