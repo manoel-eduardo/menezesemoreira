@@ -1,5 +1,6 @@
 import {red} from '@material-ui/core/colors';
 import {createMuiTheme} from '@material-ui/core/styles';
+
 // A custom theme for this app
 const theme = createMuiTheme({
     palette: {
@@ -33,7 +34,11 @@ const theme = createMuiTheme({
             fontFamily: 'TypoSquareDemo', 
         },
         h6: {
-            fontFamily: 'TypoSquareDemo', 
+            fontFamily: 'Courier New', 
+            fontWeight: 'bold'
+        },
+        body2: {
+            fontFamily: 'Courier New', 
         },
         fontFamily: 'Roboto'
     },

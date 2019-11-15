@@ -1,7 +1,7 @@
 import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {Paper, Grid} from "@material-ui/core";
+import {Paper, Grid, Typography} from "@material-ui/core";
 import './details.css';
 import Contabilidade from './contabilidade/contabilidade';
 import EscritaFiscal from './escrita-fiscal/escrita-fiscal';
@@ -13,38 +13,36 @@ class Details extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Grid container spacing={2} alignItems="center">
-                    <Grid item xs={12} sm={12} md={2}>
-                        <Paper>
-                            Contabilidade.
+                <Typography variant="h5" color="primary" className="servicesTitle">
+                    Nossos principais serviços
+                </Typography>
+                <Grid container spacing={2} alignItems="center" className="servicesGrid">
+                    <Grid item sm={12}>
+                        <Paper className="servicesPaper">
+                            <Contabilidade />
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={2}>
-                        <Paper>
-                            Escrita Fiscal
+                    <Grid item sm={12}>
+                        <Paper className="servicesPaper right">
+                            <EscritaFiscal />
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={2}>
-                        <Paper>
-                            Folha
+                    <Grid item sm={12}>
+                        <Paper className="servicesPaper">
+                            <Folha />
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={2}>
-                        <Paper>
-                            Regularização Empresa
+                    <Grid item sm={12}>
+                        <Paper className="servicesPaper right">
+                            <PessoaFisica />
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={2}>
-                        <Paper>
-                            Pessoa Física
+                    <Grid item sm={12}>
+                        <Paper className="servicesPaper">
+                            <RegularizacaoEmpresarial />
                         </Paper>
                     </Grid>
                 </Grid>
-                <Contabilidade />
-                <EscritaFiscal />
-                <Folha />
-                <PessoaFisica />
-                <RegularizacaoEmpresarial />
             </React.Fragment>
         );
     }

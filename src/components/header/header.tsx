@@ -4,29 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import "../../App.css";
 
-interface IHeaderProps {
-    
-}
-
-interface IHeaderState {
-    currentScrollHeight: number;
-}
-
-class Header extends React.Component<IHeaderProps, IHeaderState> {
-    constructor(props: any) {
-        super(props);
-        this.state = {currentScrollHeight: 0.0};
-    }
-
-    componentDidMount () {      
-        window.onscroll =()=>{
-         const newScrollHeight = Math.ceil(window.scrollY / 10) * 10;
-         if (this.state.currentScrollHeight !== newScrollHeight){
-             this.setState({currentScrollHeight: newScrollHeight})
-         }
-       }
-    }
-
+class Header extends React.Component {
     render() {
         return (
             <AppBar position="fixed" className="App-nav">

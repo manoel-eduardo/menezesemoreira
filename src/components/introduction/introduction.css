@@ -21,8 +21,9 @@
     bottom: 0;
     right: 0;
     align-content: right;
-    text-shadow: 0.5px 0.5px lightcoral;
+    text-shadow: 0.25px 0.25px lightslategray;
     z-index: 2;
+    padding: 0px 0px 0px 35px;
 }
 
 .intro-text-container h2{
@@ -31,6 +32,7 @@
 
 .intro-text-container span{
     font-size: 21px;
+    text-shadow: 0.25px 0.25px lightslategray;
 }
 
 .intro-logo-smDown {
@@ -77,13 +79,12 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    
-
     .intro-text-container {
         width: 45%;  
         padding-right: 5vh;
         padding-bottom: 5vh;
         text-align: justify;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .more-icon {

@@ -1,18 +1,26 @@
 import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {Box} from "@material-ui/core";
+import {Box, Typography} from "@material-ui/core";
 
 class PessoaFisica extends React.Component {
     render() {
         return (
             <Box>
-                <h3>Pessoa Física</h3>
+                <Typography variant="h6">Pessoa Física</Typography>
                 <ul>
-                    <li>Análise elabora e acompanhamento da declaração de imposto de renda</li>
-                    <li>Apuração do ganho de capital sobre a compra/venda de imóveis</li>
-                    <li>Apuração do ITCD</li>
-                    <li>Folha de pagamento do profissional doméstico (E-SOCIAL)</li>
+                    <li>
+                        <span>Análise elabora e acompanhamento da declaração de imposto de renda</span>
+                    </li>
+                    <li>
+                        <span>Apuração do ganho de capital sobre a compra/venda de imóveis</span>
+                    </li>
+                    <li>
+                        <span>Apuração do ITCD</span>
+                    </li>
+                    <li>
+                        <span>Folha de pagamento do profissional doméstico (E-SOCIAL)</span>
+                    </li>
                 </ul>
             </Box>
         );
