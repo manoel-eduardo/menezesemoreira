@@ -18,7 +18,7 @@ class Footer extends React.Component {
                             </Typography>
                         </div>
                     </Grid>
-                    <Grid item sm={12} md={4} className="footerItem" spacing={1}>
+                    <Grid item sm={12} md={4} className="footerItem" >
                             <Typography variant="h6" color="secondary" className="itemTitle">Localização</Typography>
                             <div className="itemContent">
                                 <Typography variant="body2" color="secondary">

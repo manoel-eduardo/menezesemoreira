@@ -19,10 +19,6 @@
     padding: 5px 15px;
 }
 
-.servicesPaper.right {
-    text-align: right;
-}
-
 .servicesPaper ul {
     list-style: none;
 }
@@ -55,30 +51,44 @@
     z-index: 1;
 }
 
-.servicesPaper.right ul li:before{
-    float: right;
-    margin: 0.275rem 0.5rem 0rem 0;
-}
-
 .servicesPaper ul li span {
     font-size: 1.1rem;
     margin-top: -5px;
 }
 
-.servicesPaper.right ul li {
-    margin-right: 30px;
+
+@media only screen and (max-width: 1023px) {
+    .servicesPaper .serviceName{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
 }
 
-.servicesPaper.right ul li span {
-    margin-right: 10px;
-}
+@media only screen and (min-width: 1024px) {   
+    .servicesPaper .serviceName{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
 
-.servicesPaper .serviceName{
-    margin-top: 15px;
-    margin-left: 40px;
-}
+    .servicesPaper.right {
+        text-align: right;
+    }
 
-.servicesPaper.right .serviceName {
-    margin-top: 15px;
-    margin-right: 40px;
+    .servicesPaper.right ul li:before{
+        float: right;
+        margin: 0.275rem 0.5rem 0rem 0;
+    }
+
+    .servicesPaper.right ul li {
+        margin-right: 30px;
+    }
+
+    .servicesPaper.right ul li span {
+        margin-right: 10px;
+    }
+
+    .servicesPaper.right .serviceName {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
 }
