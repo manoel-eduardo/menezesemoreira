@@ -1,30 +1,11 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .App-nav {
-    background-color: #282c34;
+    background-color: rgba(255, 255, 255, 0.5) !important;
     min-height: 15px;
     display: flex;
     flex-direction: column;
@@ -32,10 +13,11 @@
     justify-content: left;
     font-family: TypoSquareDemoBold;
     font-size: calc(10px + 2vmin);
+    text-shadow: 2px 2px whitesmoke;
 }
 
 .App-logoContainer {
-    background-color: black;
+    /* background-color: black; */
     height: 64px;
     width: 100px;
     margin-right: 15px;
