@@ -25,7 +25,7 @@ class Footer extends React.Component {
                                     <p>Rua Alexandre Mathias Alves, 295, 2º andar</p>
                                     <p>Nova Cintra - Belo Horizonte/MG</p>
                                 </Typography>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902611.0150222357!2d-44.838240009831495!3d-21.349030275539445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ee4431e7e7%3A0x9799b0a0315c995b!2sMenezes%20%26%20Moreira%20Contabilidade!5e0!3m2!1sen!2sbr!4v1573843989882!5m2!1sen!2sbr"></iframe>
+                                <iframe title="Localização" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902611.0150222357!2d-44.838240009831495!3d-21.349030275539445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ee4431e7e7%3A0x9799b0a0315c995b!2sMenezes%20%26%20Moreira%20Contabilidade!5e0!3m2!1sen!2sbr!4v1573843989882!5m2!1sen!2sbr"></iframe>
                             </div>
                     </Grid>
                 </Grid>
