@@ -47,7 +47,7 @@
     color: var(--bg);
     background: var(--highlight1) linear-gradient(to bottom right, var(--highlight1) 25%, var(--highlight2));
     text-shadow: 0 0 2px var(--highlight1);
-    border-radius: 50%;
+    border-radius: 25%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
