@@ -1,0 +1,92 @@
+.App-introduction {
+    height: 100vh;
+    background-image: url('/images/desk.jpg'); /* Source https://pxhere.com/en/photo/1452227 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+.App-introduction img {
+    height: inherit;
+    width: inherit;
+}
+
+.hilight {
+    background-color: #FFF;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.intro-text-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    align-content: right;
+    text-shadow: 0.5px 0.5px lightcoral;
+    z-index: 2;
+}
+
+.intro-text-container h2{
+    text-align: right;
+}
+
+.intro-text-container span{
+    font-size: 21px;
+}
+
+.more-icon {
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+    right: 5vh;
+    bottom: 1vh;
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro-text-container {
+        width: 45%;  
+        padding-right: 5vh;
+        padding-bottom: 5vh;
+        text-align: justify;
+    }
+
+    .more-icon {
+        right: 5vh;
+        bottom: 1vh;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .intro-text-container {
+        padding: 2vh;
+        text-align: justify;
+    }
+
+    .more-icon {
+        right: 1vh;
+        bottom: 1vh;
+    }
+}
+
+@keyframes jump {
+    0%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50%{
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    80%{
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+}
