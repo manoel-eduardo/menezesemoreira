@@ -17,13 +17,24 @@ const theme = createMuiTheme({
         },
     },
     typography: {
-        fontFamily: [
-            'TypoSquareDemo',
-            'Roboto',
-            '"Helvetica Neue"',
-            'Arial',
-            'sans-serif'
-        ].join(','),
+        h1: {
+            fontFamily: 'TypoSquareDemo', 
+        },
+        h2: {
+            fontFamily: 'TypoSquareDemo', 
+        },
+        h3: {
+            fontFamily: 'TypoSquareDemo', 
+        },
+        h4: {
+            fontFamily: 'TypoSquareDemo', 
+        },
+        h5: {
+            fontFamily: 'TypoSquareDemo', 
+        },
+        h6: {
+            fontFamily: 'TypoSquareDemo', 
+        }
     },
 });
 

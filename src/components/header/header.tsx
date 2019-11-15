@@ -13,7 +13,7 @@ class Header extends React.Component {
                         <img src={process.env.PUBLIC_URL + '/images/card.svg'}
                              alt={'Contabilidade Menezes e Moreira - Logo'}/>
                     </div>
-                    <Typography variant="h6" color="inherit">
+                    <Typography variant="h5" color="inherit">
                         Contabilidade Menezes e Moreira
                     </Typography>
                 </Toolbar>
