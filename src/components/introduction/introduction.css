@@ -7,11 +7,6 @@
     margin-bottom: 10px;
 }
 
-.App-introduction img {
-    height: inherit;
-    width: inherit;
-}
-
 .hilight {
     background-color: #FFF;
     position: absolute;
@@ -38,6 +33,37 @@
     font-size: 21px;
 }
 
+.intro-logo-smDown {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.intro-logo-smDown h4 {
+    padding-left: 0.5vh;
+    margin-top: -35px;
+    text-shadow: 1.5px 1.5px lightcoral;
+}
+
+.intro-logo {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+}
+
+.intro-logo h2 {
+    padding-left: 2vh;
+    margin-top: -65px;
+    text-shadow: 1.5px 1.5px lightcoral;
+}
+
+.intro-logo img {
+    margin-top: -10vh;
+    height: 50vh;
+    width: 50vh;
+}
+
 .more-icon {
     animation-name: jump;
     animation-duration: 3s;
@@ -51,6 +77,8 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    
+
     .intro-text-container {
         width: 45%;  
         padding-right: 5vh;
